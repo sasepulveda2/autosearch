@@ -44,3 +44,14 @@ Una vez instalada las dependencias corre el comando en la terminal:
 ```bash
 python searchcsv.py
 ```
+Esto va a abrir una ventana en chrome, las acciones que realices se guardaran en un json, al volver
+a la terminal apreta ctrl + c, haces control c y todo lo que hiciste en el navegador con el mouse se guarda
+en el .json
+
+### 5. CORRE tu BOT  básico
+
+con esto lo que automatizaste se va realizar automaticamente 1 vez... de momento
+```bash
+python bot.py
+```
+pd: como no caché porque se me olvido lo que había qe hacer, dejo esto por acá dfjdsfkjdsfjsd

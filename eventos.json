@@ -1,0 +1,15 @@
+[
+  {
+    "target": "DIV",
+    "tipo": "click",
+    "x": 460,
+    "y": 276
+  },
+  {
+    "target": "DIV",
+    "tipo": "click",
+    "x": 402,
+    "y": 388
+  }
+]
+// esto era pa probar

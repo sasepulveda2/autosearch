@@ -20,5 +20,5 @@ for e in eventos:
         acciones.move_by_offset(e["x"], e["y"]).click().perform()
         # No TOCAR idealmente
         acciones.reset_actions()
-        time.sleep(0.5)
+        time.sleep(1)
 driver.quit()

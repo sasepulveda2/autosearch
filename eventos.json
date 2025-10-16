@@ -1,15 +1,26 @@
 [
   {
-    "target": "DIV",
+    "target": "path",
     "tipo": "click",
-    "x": 460,
-    "y": 276
+    "x": 376,
+    "y": 343
   },
   {
     "target": "DIV",
     "tipo": "click",
-    "x": 402,
-    "y": 388
+    "x": 224,
+    "y": 524
+  },
+  {
+    "target": "DIV",
+    "tipo": "click",
+    "x": 626,
+    "y": 345
+  },
+  {
+    "target": "DIV",
+    "tipo": "click",
+    "x": 568,
+    "y": 436
   }
 ]
-// esto era pa probar

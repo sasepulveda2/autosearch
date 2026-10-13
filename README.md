@@ -1,57 +1,78 @@
-# Extracción de Datos de Transformadores de Corriente?¿?¿?
+# Automated Search
 
-De momento se usa **Python** para realizar *web scraping* de una tabla de datos de la web de Infotécnica del Coordinador Eléctrico Nacional de Chile
+Currently, **Python** is used to scrape data tables from the Infotécnica portal of Chile's National Electrical Coordinator (*Coordinador Eléctrico Nacional*).
 
-## Pasos a seguir para correr el programa
+## Getting Started
+
+### 1. Prerequisites
+
+* **Python 3.x** installed on your system.
+
+### 2. Virtual Environment Setup
+
+It is strongly recommended to use a virtual environment (`env`) to isolate project dependencies.
+
+1. **Create** the virtual environment:
+```bash
+python -m venv env
+
+```
 
 
-### 1. Requisitos
+2. **Activate** the environment:
+* **Windows (PowerShell):**
+```bash
+.\env\Scripts\activate
 
-**Python 3** instalado.
+```
 
-### 2. Configuración del Entorno Virtual
 
-Se recomienda trabajar dentro de un entorno virtual (`env`) para aislar las dependencias del proyecto.
+* **Windows (Command Prompt):**
+```cmd
+env\Scripts\activate
 
-1.  **Crea** el entorno con:
-    ```bash
-    python -m venv env
-    ```
+```
 
-2.  **Activa** el entorno con:
-    * **Windows:**
-        ```bash
-        .\env\Scripts\activate
-        ```
-        o con:
-        ```bash
-        env\Scripts\activate
-        ```
-        si es que no funca el primero 
 
-### 3. Instalación de Dependencias
+* **macOS / Linux:**
+```bash
+source env/bin/activate
 
-Una vez activado el entorno, instala todas las librerías necesarias utilizando el archivo `requirements.txt`:
+```
+
+
+
+
+
+### 3. Install Dependencies
+
+Once the environment is active, install the required packages using `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
+
 ```
+
 ---
 
-### 4. CORRELO  
+### 4. Record Actions
 
-Una vez instalada las dependencias corre el comando en la terminal:
+Run the recording script from your terminal:
+
 ```bash
 python searchcsv.py
+
 ```
-Esto va a abrir una ventana en chrome, las acciones que realices se guardaran en un json, al volver
-a la terminal apreta ctrl + c, haces control c y todo lo que hiciste en el navegador con el mouse se guarda
-en el .json
 
-### 5. CORRE tu BOT  básico
+This will launch a Chrome browser window. Perform the required navigation and clicks manually. Once finished, return to the terminal and press `Ctrl + C` to stop the script and save your recorded browser actions into a `.json` file.
 
-con esto lo que automatizaste se va realizar automaticamente 1 vez... de momento
+### 5. Run the Automation Bot
+
+To replay the recorded workflow:
+
 ```bash
 python bot.py
+
 ```
-pd: como no caché porque se me olvido lo que había qe hacer, dejo esto por acá dfjdsfkjdsfjsd
+
+This will automatically execute the saved actions sequence.
